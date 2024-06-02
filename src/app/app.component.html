@@ -1,15 +1,12 @@
-<router-outlet></router-outlet>
 <div class="container">
+  <app-navbar></app-navbar>
   <div class="row">
+    <div class="col-md-12"></div>
     <div class="col-md-6">
-      <h1>Recipes</h1>
-      <input type="text" class="form-control name" placeholder="Enter recipe name">
-      <app-header></app-header>
-      <app-recipe-detail></app-recipe-detail>
       <app-recipes></app-recipes>
-      <app-recipe-item></app-recipe-item>
-      <app-shopping-edit></app-shopping-edit>
       <app-shopping-list></app-shopping-list>
     </div>
   </div>
 </div>
+
+<router-outlet></router-outlet>

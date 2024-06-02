@@ -8,6 +8,7 @@ import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { RecipesComponent } from './recipes/recipes.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
@@ -15,6 +16,7 @@ import { RecipesComponent } from './recipes/recipes.component';
   imports: [
     CommonModule,
     RouterOutlet,
+    NavbarComponent,
     RecipesComponent,
     HeaderComponent,
     RecipeDetailComponent,
